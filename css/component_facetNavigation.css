@@ -1,0 +1,422 @@
+
+/* Estilo filtros laterales de la product grid y search grid */	
+	
+a.dropdown span {
+	display: block;
+	width: 19px;
+	height: 19px;
+}
+
+.empty-nav-item {
+	color: #FFFFFF;
+	font-size: 1.1em;
+	padding: 10px 7px 10px 7px;
+	text-decoration: none;
+	float: left;
+	margin: 0;
+}
+
+.facet_block input {
+	display: none;
+}
+
+.facet_block input[type="checkbox"]:checked + label {
+	background: url('../images/dia/svg/nav-filter-selected-checkbox.svg') 0 50% no-repeat;
+	background-size: 14px 14px;
+}
+
+.facet_block-label {
+	padding: 0;
+	padding-left: 22px;
+	float: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: normal;
+	background: url('../images/dia/svg/nav-filter-unselected-checkbox.svg') 0 50% no-repeat;
+	background-size: 14px 14px;
+}
+
+
+.nav_column .item ul.facet_block span.remove a {
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+
+.facet_block li {
+	clear: both;
+}
+
+.nav_column .item ul.indent li {
+	padding: 0 0 6px 0;
+}
+.nav_column .item .topFacetValues ul.indent li, .nav_column .item .allFacetValues ul.indent li {
+	padding: 0 0 6px 0;
+	list-style: none;
+	margin-left: 15px;
+	margin-bottom: 7px;
+}
+
+.nav_column .item ul.indent li.nodisc {
+	list-style: none;
+	margin-left: 0
+}
+
+.nav_column .item ul.indent li.level3brand {
+	list-style: none;
+	margin-left: 30px;
+}
+.nav_column .item ul.indent li.level2brand {
+	list-style: none;
+	margin-left: 15px;
+}
+.nav_column .item ul.indent li.level1brand {
+	list-style: none;
+	margin-left: 0;
+}
+
+.template-pages-DIAAccountPageTemplate .nav_column .item ul.indent li {
+	font-size: 115%;
+	padding: 0 0 3px 8px;
+}
+
+.nav_column .item .more {
+	display: block;
+	margin-top: 25px;
+	text-align: left;
+}
+
+.nav_column .item .more:before {
+
+}
+
+.nav_column .item .more.non-js {
+	margin-left: 0;
+}
+
+.nav_column .item li.nav_selected {
+	font-weight: bold;
+}
+
+.nav_column .item ul.indent li.active {
+	background-color: #D52B1E;
+}
+
+.nav_column .item ul.indent li.active a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Remove applied filters */
+
+.nav_column .item ul.facet_block span.remove {
+	float: right;
+	text-align: center;
+	margin-right: 14px;
+	
+}
+.nav_column .item ul.facet_block span.remove a.icon-times:before {
+	font-size: 1em;
+	color: #DB2120;
+}
+
+
+.nav_column .item .facetValues {
+	margin: 0 0 10px 0;
+}
+
+.nav_column input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.nav_column .title {
+	position: absolute;
+	max-width: 350px;
+	top: -11px;
+	left: 15px;
+	margin-left: 7px;
+	margin-right: 7px;
+	right: 0;
+	left: 0;
+}
+
+.nav_column .title-top img {
+	float: right;
+}
+
+.nav_column .title-top {
+	height: 11px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: transparent;
+}
+
+.nav_column .title-top span {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: scroll;
+}
+
+.nav_column .item.appliedFilters {
+    padding: 14px 0 14px 0;
+}
+
+.nav_column .item.appliedFilters ul li{
+    padding: 4px 3px 4px 16px;
+	border-left: 4px solid #fff;
+}
+
+.nav_column .item.appliedFilters ul li:hover{
+    background-color: #f8f8f8;
+	border-left: 4px solid #DB2120;
+	color: #DB2120;
+}
+
+
+.nav_column .item .category {
+	padding: 5px 0 5px 0;
+	overflow: hidden;
+	line-height: 19px;
+}
+
+.nav_column .item .category h4 {
+	color: #686a69;
+	display: inline;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav_column .item .category span.dropdown img {
+	
+}
+
+.nav_column .item ul {
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+.nav_column .item .category span.dropdown {
+	
+}
+
+.nav_column .item .category a.refinementToggle, .nav_column .item .category a.refinementToggle:hover {
+	text-decoration: none;
+	display: block;
+	width: auto;
+	float: left;
+}
+
+/* Desplegable Filtros */
+/* usa un toggle js de la clase icon-caret-XXX */
+/* ver acc.refinements.js  */
+
+.nav_column .item .category .collapsableArrow {
+	display: block;
+	float: left;
+	font-family: "dia" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: middle;
+	font-size: 1em;
+	color: #686a69;
+	padding-top: 2px;
+	margin-left: 6px;
+}
+
+.nav_column span.remove_item_left_name {
+	font-size: 14px;
+	margin-left: 8px;
+	font-family: "VAGRoundedBT", Calibri, 'Cabin', sans-serif !important;
+}
+
+.nav_column .item a {
+	color: #5b5b5b;
+}
+
+.nav_column .item .more a:active {
+	color: #ff2917;
+}
+
+/** Cesta rapida cuando buscas por listado de productos **/
+#busquedas_cesta_rapida {
+	background:0;
+	margin: 0 3px 0 15px;
+    padding: 3px;		
+}
+
+#busquedas_cesta_rapida .titulo {
+	cursor: pointer;
+	color: #605E59;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 0px;
+	margin-bottom:10px;
+	font-size: 15px;
+	background-color: #fafaf9 !important;
+}
+
+#busquedas_cesta_rapida .titulo .mostrar {
+	display: none;
+}
+
+#busquedas_cesta_rapida .titulo .ocultar-mostrarLista {
+	float: right;
+    height: 16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+#busquedas_cesta_rapida .titulo .ocultar-mostrarLista.ocultar {
+	margin-top:4px;
+}
+
+#busquedas_cesta_rapida .busqueda_elemento {
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+    padding-left: 0;
+	margin-left:7px;
+}
+
+#busquedas_cesta_rapida .busqueda_elemento a {
+	font-size: 16px;
+	margin-left: 0px;
+	color:#5b5b5b;
+}
+
+/* Filtros */
+
+/* Cabecera de filtros */
+.page-DIAsearch .nav_column .title_holder h2, .page-DIAsearchPromotions  .nav_column .title_holder h2, .page-DIAProductGridMarcaPage .nav_column .title_holder h2, .page-DIAsearchNovedades .nav_column .title_holder h2{
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #686a69;
+	padding: 12px 12px 8px 16px;
+	text-align: left;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.page-DIAproductGrid .nav_column .item ul li strong a, .page-DIAsearch .nav_column .item ul li strong a, .page-DIAsearchPromotions .nav_column .item ul li strong a, .page-DIAProductGridMarcaPage .nav_column .item ul li strong a, .page-DIAsearchNovedades .nav_column .item ul li strong a {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.page-DIAproductGrid .topFacetValues .facet_block.indent li, .page-DIAsearch .topFacetValues .facet_block.indent li, .page-DIAsearchPromotions .topFacetValues .facet_block.indent li, .page-DIAsearchNovedades .topFacetValues .facet_block.indent li {
+
+}
+
+.page-DIAproductGrid .facet-value-count, .page-DIAsearch .facet-value-count, .page-DIAsearchPromotions .facet-value-count, .page-DIAProductGridMarcaPage .facet-value-count, .page-DIAsearchNovedades .facet-value-count {
+	color: #d52b1e;
+	margin-left: 4px;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.page-DIAproductGrid .facet-value-count:before, .page-DIAsearch .facet-value-count:before, .page-DIAsearchPromotions .facet-value-count:before, .page-DIAProductGridMarcaPage .facet-value-count:before, .page-DIAsearchNovedades .facet-value-count:before {
+	content: "(";
+}
+
+.page-DIAproductGrid .facet-value-count:after, .page-DIAsearch .facet-value-count:after, .page-DIAsearchPromotions .facet-value-count:after, .page-DIAProductGridMarcaPage .facet-value-count:after, .page-DIAsearchNovedades .facet-value-count:after {
+	content: ")";
+}
+
+.page-DIAproductGrid .topFacetValues li, .page-DIAsearch .topFacetValues li, .page-DIAsearchPromotions .topFacetValues li, .page-DIAProductGridMarcaPage .topFacetValues li, .page-DIAsearchNovedades .topFacetValues li {
+	margin-left: 10px;
+}
+
+.page-DIAproductGrid .topFacetValues li form, .page-DIAsearch .topFacetValues li form, .page-DIAsearchPromotions .topFacetValues li form, .page-DIAProductGridMarcaPage .topFacetValues li form, .page-DIAsearchNovedades .topFacetValues li form {
+	margin-left: 0px;
+}
+
+.page-DIAproductGrid .nav_column form input[type=checkbox], .page-DIAsearch .nav_column form input[type=checkbox] , .page-DIAsearchPromotions .nav_column form input[type=checkbox], .page-DIAProductGridMarcaPage .nav_column form input[type=checkbox], .page-DIAsearchNovedades .nav_column form input[type=checkbox]  {
+	width: 16px;
+	height: 16px;
+	margin-top: 0px;
+	margin-right: 7px;
+	border: 1px solid #5b5b5b !important;
+}
+
+.page-DIAproductGrid .nav_column .item .category, .page-DIAsearch .nav_column .item .category , .page-DIAsearchPromotions .nav_column .item .category, .page-DIAProductGridMarcaPage .nav_column .item .category, .page-DIAsearchNovedades .nav_column .item .category {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.page-DIAproductGrid .nav_column .more a, .page-DIAsearch .nav_column .more a, .page-DIAsearchPromotions .nav_column .more a, .page-DIAProductGridMarcaPage .nav_column .more a, .page-DIAsearchNovedades .nav_column .more a {
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 25px;
+	color: #db2120;
+}
+
+.page-DIAproductGrid .nav_column .allFacetValues ul li, .page-DIAsearch .nav_column .allFacetValues ul li , .page-DIAsearchPromotions .nav_column .allFacetValues ul li, .page-DIAProductGridMarcaPage .nav_column .allFacetValues ul li, .page-DIAsearchNovedades .nav_column .allFacetValues ul li  {
+	margin-left: 0px;
+	list-style: none;
+	font-size: 13px;
+}
+
+.page-DIAproductGrid .nav_column .allFacetValues ul li a, .page-DIAsearch .nav_column .allFacetValues ul li a , .page-DIAsearchPromotions .nav_column .allFacetValues ul li a, .page-DIAProductGridMarcaPage .nav_column .allFacetValues ul li a, .page-DIAsearchNovedades .nav_column .allFacetValues ul li a {
+	margin-left: 0px;
+}
+
+.page-DIAproductGrid .nav_column .allFacetValues ul li.nodisc, .page-DIAsearch .nav_column .allFacetValues ul li.nodisc, .page-DIAsearchPromotions .nav_column .allFacetValues ul li.nodisc, .page-DIAProductGridMarcaPage .nav_column .allFacetValues ul li.nodisc, .page-DIAsearchNovedades .nav_column .allFacetValues ul li.nodisc {
+	margin-left: 0px;
+	margin-bottom: 7px;
+}
+
+.page-DIAproductGrid .nav_column .allFacetValues ul li.nodisc a, .page-DIAsearch .nav_column .allFacetValues ul li.nodisc a, .page-DIAsearchPromotions .nav_column .allFacetValues ul li.nodisc a, .page-DIAProductGridMarcaPage .nav_column .allFacetValues ul li.nodisc a, .page-DIAsearchNovedades .nav_column .allFacetValues ul li.nodisc a  {
+	font-style: normal;
+	margin-left: 0px
+}
+
+
+.page-DIAproductGrid .facet_block li.remove_item_left, .page-DIAsearch .facet_block li.remove_item_left, .page-DIAsearchPromotions .facet_block li.remove_item_left, .page-DIAProductGridMarcaPage .facet_block li.remove_item_left, .page-DIAsearchNovedades .facet_block li.remove_item_left {
+	
+}
+
+.page-DIAproductGrid .nav_column ul.Lc, .page-DIAsearch .nav_column ul.Lc, .page-DIAsearchPromotions .nav_column ul.Lc, .page-DIAsearchNovedades .nav_column ul.Lc {
+	padding-bottom: 7px !important
+}
+
+.page-DIAproductGrid .nav_column .Lb.how_element .Lb:first-child, .page-DIAsearch .nav_column .Lb.how_element .Lb:first-child, .page-DIAsearchPromotions .nav_column .Lb.how_element .Lb:first-child, .page-DIAsearchNovedades .nav_column .Lb.how_element .Lb:first-child  {
+	padding-top: 7px;
+}
+
+/* SZF, 20170404, [DIACLAREL-123] - Estilo menu de categorias en pagina de marcas */
+.allFacetValues.brand-categories-menu ul li {
+    padding: 3% 0% 3% 0%;
+}
+
+.allFacetValues.brand-categories-menu {
+    font-size: 1.3em;
+}
+
+li.brand-category-node-level1 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+li.brand-category-node-level2 {
+    margin-left: 5%;
+}
+
+li.brand-category-node-level3 {
+    margin-left: 10%;
+    font-style: italic;
+}
+/* Fin estilo menu de categorias en pagina de marcas */
+
